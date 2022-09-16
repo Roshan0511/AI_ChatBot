@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AI ChatBot</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="todo">TODO</string>
+    <string name="hii_how_are_you">Hii, How are you?</string>
+    <string name="_2_min_ago">2 min ago</string>
+    <string name="unread_messages">Unread Messages</string>
+    <string name="_continue">Continue</string>
+    <string name="chat_with_aco">Chat With ACO...</string>
+</resources>
