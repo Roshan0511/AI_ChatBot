@@ -51,7 +51,7 @@ class ChatFragment : Fragment() {
                 adapter.notifyDataSetChanged()
 
                 callBotApi(message)
-                binding.chatRv.smoothScrollToPosition(list.size)
+                binding.chatRv.smoothScrollToPosition(adapter.itemCount)
                 binding.etMessage.text = null
             }
         }
@@ -92,7 +92,7 @@ class ChatFragment : Fragment() {
 
                         adapter.notifyDataSetChanged()
 
-                        binding.chatRv.smoothScrollToPosition(list.size)
+                        binding.chatRv.smoothScrollToPosition(adapter.itemCount)
 
                     } catch (e: JSONException) {
                         Toast.makeText(context, e.message!!.toString(), Toast.LENGTH_SHORT).show()
